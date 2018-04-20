@@ -1,0 +1,44 @@
+[debug] [2018-04-20T08:06:57.592Z] ----------------------------------------------------------------------
+[debug] [2018-04-20T08:06:57.600Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\joaco\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase experimental:functions:shell
+[debug] [2018-04-20T08:06:57.601Z] CLI Version:   3.18.4
+[debug] [2018-04-20T08:06:57.601Z] Platform:      win32
+[debug] [2018-04-20T08:06:57.601Z] Node Version:  v9.11.1
+[debug] [2018-04-20T08:06:57.606Z] Time:          Fri Apr 20 2018 10:06:57 GMT+0200 (Hora de verano romance)
+[debug] [2018-04-20T08:06:57.606Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-04-20T08:06:57.647Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-04-20T08:06:57.648Z] > authorizing via signed-in user
+[debug] [2018-04-20T08:06:57.656Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-04-20T08:06:57.657Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ { refresh_token: '1/PFh6oTrVqkmrjWSsmA2lbIx3E1AF0EcMqS6Uuk2nr5G6orC6aYJa9gKHQ9AzSENz',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Fri Apr 20 2018 10:06:57 GMT+0200 (Hora de verano romance)
+[debug] [2018-04-20T08:07:00.133Z] <<< HTTP RESPONSE 200
+[debug] [2018-04-20T08:07:00.160Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/chat-4bc4a  
+  
+ Fri Apr 20 2018 10:07:00 GMT+0200 (Hora de verano romance)
+[debug] [2018-04-20T08:07:01.100Z] <<< HTTP RESPONSE 200
+[debug] [2018-04-20T08:07:01.101Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/chat-4bc4a/tokens  
+  
+ Fri Apr 20 2018 10:07:01 GMT+0200 (Hora de verano romance)
+[debug] [2018-04-20T08:07:01.828Z] <<< HTTP RESPONSE 200
+[info] i  functions: Preparing to emulate functions.
+[debug] [2018-04-20T08:07:05.538Z] Fetching environment
+[debug] [2018-04-20T08:07:05.547Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/chat-4bc4a  
+  
+ Fri Apr 20 2018 10:07:05 GMT+0200 (Hora de verano romance)
+[debug] [2018-04-20T08:07:06.655Z] <<< HTTP RESPONSE 200
+[debug] [2018-04-20T08:07:06.656Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/594651092364:getServerAppConfig  
+  
+ Fri Apr 20 2018 10:07:06 GMT+0200 (Hora de verano romance)
+[debug] [2018-04-20T08:07:07.626Z] <<< HTTP RESPONSE 200
+[debug] [2018-04-20T08:07:07.628Z] Starting @google-cloud/functions-emulator
+[debug] [2018-04-20T08:07:15.272Z] Parsing function triggers
+[debug] [2018-04-20T08:07:16.857Z] Deploying functions locally
+[debug] [2018-04-20T08:07:16.862Z] Deploying functions locally
+[info] +  functions: emojify
+[info] +  functions: password
+[info] +  functions: helloWorld
